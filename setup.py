@@ -6,7 +6,7 @@ if os.path.exists("README.md"):
 else:
     long_desc = "Default description"
 setup(
-    name="embedded_config",
+    name="Embedded_config",
     version="1.0",
     packages=find_packages(),
     install_requires=[
