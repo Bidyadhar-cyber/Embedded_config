@@ -1,6 +1,13 @@
 from setuptools import setup, find_packages
 import os
-
+print(r"""
+     __  __  __   ____  ____   __  __ 
+    / / / / / /  / ___|| ___| |  \/  |
+   / / / / / /  | |    |___ \ | |\/| |
+  / / / / / /   | |___  ___) || |  | |
+ /_/ /_/ /_/     \____||____/ |_|  |_|
+              
+""")
 if os.path.exists("README.md"):
     long_desc = open("README.md").read()
 else:
